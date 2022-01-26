@@ -1,7 +1,7 @@
 import React from "react";
 import AboutCard from "../Components/AboutCard";
-import Layout from "../Components/Layout";
-import AboutImg from "../images/about.png";
+// import Layout from "../Components/Layout";
+// import AboutImg from "../images/about.png";
 import EmpData from "../EmpData";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
 
       <div className="my-5">
         <h1 className="text-center">We design, build and ship remarkable digital products</h1>
-        <h4 className="text-center text-muted" style={{ padding: "0px 150px" }}>We are a passionate team of skilled professionals that design, develop and support innovative custom mobile, web, IoT-based, and other digital solutions, guiding businesses on their growth journey.</h4>
+        <h4 className="text-center text-muted px-5">We are a passionate team of skilled professionals that design, <br />develop and support innovative custom mobile, web, IoT-based, and<br /> other digital solutions, guiding businesses on their growth journey.</h4>
       </div>
       <div className="container-fluid mb-5">
         <div className="row">

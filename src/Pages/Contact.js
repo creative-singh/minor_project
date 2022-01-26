@@ -30,7 +30,7 @@ const Contact = () => {
     // I want to say ${data.msg}.
     // `);
     try {
-      const res = await emailjs.sendForm("gmail", "template_zflln3p", e.target, "user_PInTtJatFbEm0cJHjZCmq");
+      await emailjs.sendForm("gmail", "template_zflln3p", e.target, "user_PInTtJatFbEm0cJHjZCmq");
 
       Swal.fire(
         "Message Sent Successfully",

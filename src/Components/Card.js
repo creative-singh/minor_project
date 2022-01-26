@@ -18,7 +18,7 @@ const Card = (props) => {
           <p className="card-text">
             {props.text}
           </p>
-          <Link to="" className="btn btn-primary position-absolute" style={{ bottom: "5%" }}>
+          <Link to={props.redirection} className="btn btn-primary position-absolute" style={{ bottom: "5%" }}>
             Explore More
           </Link>
         </div>
